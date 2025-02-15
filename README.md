@@ -1,13 +1,13 @@
 Here's the full content formatted as a `README.md` file:
 
 ```markdown
-# 📄 Vector PDF Search using Astra DB and Google AI
+#Vector PDF Search using Astra DB and Google AI
 
 This project is a **PDF document retrieval and question-answering system** that leverages **Astra DB** for cloud storage and **Google AI's SentenceTransformer** model for semantic search. Users can input queries, and the system will return the most relevant text chunk from the uploaded PDF documents.
 
 ---
 
-## 🛠️ **Features**
+##**Features**
 
 - Extracts text from PDFs using `PyPDF2`.
 - Stores text chunks in **Astra DB**.
@@ -16,7 +16,7 @@ This project is a **PDF document retrieval and question-answering system** that 
 
 ---
 
-## 🔧 **Technologies Used**
+##**Technologies Used**
 
 - **Python**: Core language for development.
 - **Astra DB**: Cloud database for storing PDF text chunks.
@@ -27,7 +27,7 @@ This project is a **PDF document retrieval and question-answering system** that 
 
 ---
 
-## 🚀 **Getting Started**
+## **Getting Started**
 
 ### 1. **Clone the Repository**
 ```bash
@@ -139,12 +139,7 @@ This will start the semantic search service. You can now upload PDFs and input q
 
 ---
 
-## 📜 **License**
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 💬 **Contact**
-For any questions or feedback, feel free to reach out at [your-email@example.com].
+## **Contact**
+For any questions or feedback, feel free to reach out at sudhann04@gmail.com.
 
 ```
