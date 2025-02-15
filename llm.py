@@ -11,14 +11,14 @@ ASTRA_DB_KEYSPACE = "Your Keyspace Name"
 
 client = DataAPIClient(ASTRA_DB_APPLICATION_TOKEN)
 database0 = client.get_database(ASTRA_DB_API_ENDPOINT)
-collection0 = database0.get_collection("data1")
+collection0 = database0.get_collection("Your Collection Name")
 
 print("Connected to Astra DB")
 
 collection0.delete_all()
 
 
-pdf_path = "4.pdf"
+pdf_path = "Example.pdf" #better to store the file and code file in the same page
 if not os.path.exists(pdf_path):
     raise FileNotFoundError(f"PDF file '{pdf_path}' not found!")
 
