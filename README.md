@@ -1,7 +1,3 @@
-Here’s a sample `README.md` file for your repository that covers all the important aspects:
-
----
-
 # Vector PDF Search using Astra DB and Google AI
 
 This project is a **PDF document retrieval and question-answering system** that leverages **Astra DB** for cloud storage and **Google AI's SentenceTransformer** model for semantic search. Users can input queries, and the system will return the most relevant text chunk from the uploaded PDF documents.
